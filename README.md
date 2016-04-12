@@ -1,5 +1,5 @@
 
-[goatee-rulesheets](http://sjorek.github.io/goatee-rulesheets/)
+[goatee-rulesheet](http://sjorek.github.io/goatee-rulesheet/)
 ===============================================================
 
          _______  _______  _______  _______  _______  _______
@@ -28,10 +28,10 @@
                 "''"' `##`##' "'"''" `##`##' '"''"'"
                 '"'"''"'"''"''"''"'"'''"'"'''"''"'"'
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     _____ _____ __    _____ _____ _____ _____ _____ _____ _____ 
-    | __  |  |  |  |  |   __|   __|  |  |   __|   __|_   _|   __|
-    |    -|  |  |  |__|   __|__   |     |   __|   __| | | |__   |
-    |__|__|_____|_____|_____|_____|__|__|_____|_____| |_| |_____|
+          _____ _____ __    ____ ____ _____ ____ ____ _____ 
+         | __  |  |  |  |  |  __|  __|  |  |  __|  __|_   _|
+         |    -|  |  |  |__|  __|__  |     |  __|  __| | |  
+         |__|__|_____|_____|____|____|__|__|____|____| |_|  
 
 
 A goatee is the perfect complement for handlebar mustaches. :-{>~
@@ -54,14 +54,14 @@ Also see “[goatee-js](http://sjorek.github.io/goatee-js)”,
 
 ## Installation
 
-    $ npm install -g goatee-rulesheets
+    $ npm install -g goatee-rulesheet
 
 
 ## Usage
 
-    $ goatee-rulesheets -h
+    $ goatee-rulesheet -h
 
-    Usage: goatee-rulesheets [statements]... [options]
+    Usage: goatee-rulesheet [statements]... [options]
 
     statements     string passed from the command line to evaluate
 
@@ -82,7 +82,7 @@ Also see “[goatee-js](http://sjorek.github.io/goatee-js)”,
 
 ## Documentation
 
-Read the [annotated sources](http://sjorek.github.io/goatee-rulesheets/).
+Read the [annotated sources](http://sjorek.github.io/goatee-rulesheet/).
 
 
 ## Development
@@ -95,8 +95,8 @@ Install dependencies:
 
 Install project:
 
-    $ git clone https://github.com/sjorek/goatee-rulesheets
-    $ cd goatee-rulesheets
+    $ git clone https://github.com/sjorek/goatee-rulesheet
+    $ cd goatee-rulesheet
     $ npm install
 
 Run build in *nix-like environments:
