@@ -1,6 +1,6 @@
 
-[goatee-rulesheet](http://sjorek.github.io/goatee-rulesheet/)
-===============================================================
+[goatee-rulesheet.js](http://sjorek.github.io/goatee-rulesheet.js/)
+===================================================================
 
          _______  _______  _______  _______  _______  _______
         |    ___||       ||       ||_     _||    ___||    ___|
@@ -28,7 +28,7 @@
                 "''"' `##`##' "'"''" `##`##' '"''"'"
                 '"'"''"'"''"''"''"'"'''"'"'''"''"'"'
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-          _____ _____ __    ____ ____ _____ ____ ____ _____ 
+          _____ _____ __    ____ ____ _____ ____ ____ _____
          | __  |  |  |  |  |  __|  __|  |  |  __|  __|_   _|
          |    -|  |  |  |__|  __|__  |     |  __|  __| | |  
          |__|__|_____|_____|____|____|__|__|____|____| |_|  
@@ -42,14 +42,14 @@ GoateeRulesheets are the combination of goatee-script and the syntax of css.
 
 Example:
 
-    #selector {
+    #selector, .another-selector {
         test: 1 + 2 * 3 ; /* line-breaks are optional */
         an-attribute: 'tester'.replace('r','d') ; aProperty: null
     }
 
-Also see “[goatee-js](http://sjorek.github.io/goatee-js)”,
-“[goatee-script](http://sjorek.github.io/goatee-script)” and
-“[goatee-rules](http://sjorek.github.io/goatee-rules)”.
+Also see “[goatee.js](http://sjorek.github.io/goatee.js)”,
+“[goatee-script.js](http://sjorek.github.io/goatee-script.js)” and
+“[goatee-rules.js](http://sjorek.github.io/goatee-rules.js)”.
 
 
 ## Installation
@@ -87,27 +87,33 @@ Read the [annotated sources](http://sjorek.github.io/goatee-rulesheet/).
 
 ## Development
 
-Install dependencies:
+### Install dependencies …
 
-- [git-scm](http://git-scm.com)
-- [node.js *(≥ 0.10)*](http://nodejs.org)
-- [pygments](http://pygments.org)
+- [node.js](http://nodejs.org) _(≥ 0.10)_
 
-Install project:
+  ### … for production version:
 
-    $ git clone https://github.com/sjorek/goatee-rulesheet
-    $ cd goatee-rulesheet
-    $ npm install
+       $ npm install goatee-rulesheet.js --save
 
-Run build in *nix-like environments:
+  ### … for development version:
 
-    $ PATH=$PATH:./node_modules/.bin cake all
+      $ git clone https://github.com/sjorek/goatee-rulesheet.js
+      $ cd goatee-rulesheet.js
+      $ npm install
 
-Run build in Windows environments (**not tested**):
+### Run build …
+
+#### … in *nix-like environments:
+
+    $ PATH=$PATH:./node_modules/.bin gulp
+
+#### … in Windows environments:
 
     $ set path=%PATH%;.\node_modules\.bin
     $ setx path "%PATH%"
-    $ cake all
+    $ gulp
+
+_(not tested yet)_
 
 
 ## Credits go to …
